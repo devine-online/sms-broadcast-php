@@ -1,5 +1,5 @@
 {
-    "name": "devineonline/sms-broadcast",
+    "name": "devineonline/smsbroadcast",
     "description": "PHP client for the SMS Broadcast API",
     "type": "library",
     "license": "MIT",
