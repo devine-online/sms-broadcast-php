@@ -1,25 +1,25 @@
 {
-    "name": "atymic/sms-broadcast",
+    "name": "devineonline/sms-broadcast",
     "description": "PHP client for the SMS Broadcast API",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "atymic",
-            "email": "atymicq@gmail.com"
+            "name": "DevineOnline",
+            "email": "composer@devineonline.com.au"
         }
     ],
     "require": {
-        "php": "^7.2",
-        "guzzlehttp/guzzle": "^6.3"
+        "php": "^7.3",
+        "guzzlehttp/guzzle": "^7.0"
     },
     "autoload": {
-        "psr-4": {"Atymic\\SmsBroadcast\\": "src/"}
+        "psr-4": {"DevineOnline\\SmsBroadcast\\": "src/"}
     },
     "autoload-dev": {
         "psr-4": {
-            "Atymic\\SmsBroadcast\\Tests\\Unit\\": "tests/unit",
-            "Atymic\\SmsBroadcast\\Tests\\Integration\\": "tests/integration"
+            "DevineOnline\\SmsBroadcast\\Tests\\Unit\\": "tests/unit",
+            "DevineOnline\\SmsBroadcast\\Tests\\Integration\\": "tests/integration"
         }
     },
     "require-dev": {
