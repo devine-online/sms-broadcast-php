@@ -1,8 +1,8 @@
 <?php
 
-namespace Atymic\SmsBroadcast\Factory;
+namespace DevineOnline\SmsBroadcast\Factory;
 
-use Atymic\SmsBroadcast\Api\Client;
+use DevineOnline\SmsBroadcast\Api\Client;
 use GuzzleHttp\RequestOptions;
 
 abstract class ClientFactory

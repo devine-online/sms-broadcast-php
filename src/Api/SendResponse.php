@@ -1,6 +1,6 @@
 <?php
 
-namespace Atymic\SmsBroadcast\Api;
+namespace DevineOnline\SmsBroadcast\Api;
 
 class SendResponse
 {

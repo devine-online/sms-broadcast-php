@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Atymic\SmsBroadcast\Api;
+namespace DevineOnline\SmsBroadcast\Api;
 
-use Atymic\SmsBroadcast\Exception\InvalidMessageException;
-use Atymic\SmsBroadcast\Exception\InvalidNumberException;
-use Atymic\SmsBroadcast\Exception\InvalidSenderException;
+use DevineOnline\SmsBroadcast\Exception\InvalidMessageException;
+use DevineOnline\SmsBroadcast\Exception\InvalidNumberException;
+use DevineOnline\SmsBroadcast\Exception\InvalidSenderException;
 
 class SendRequest
 {

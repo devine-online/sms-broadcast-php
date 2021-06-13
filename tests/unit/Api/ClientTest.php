@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Atymic\SmsBroadcast\Tests\Unit\Api;
+namespace DevineOnline\SmsBroadcast\Tests\Unit\Api;
 
-use Atymic\SmsBroadcast\Api\Client;
-use Atymic\SmsBroadcast\Api\SendResponse;
-use Atymic\SmsBroadcast\Exception\InvalidMessageException;
-use Atymic\SmsBroadcast\Exception\InvalidNumberException;
-use Atymic\SmsBroadcast\Exception\InvalidSenderException;
-use Atymic\SmsBroadcast\Exception\SendException;
-use Atymic\SmsBroadcast\Exception\SmsBroadcastException;
+use DevineOnline\SmsBroadcast\Api\Client;
+use DevineOnline\SmsBroadcast\Api\SendResponse;
+use DevineOnline\SmsBroadcast\Exception\InvalidMessageException;
+use DevineOnline\SmsBroadcast\Exception\InvalidNumberException;
+use DevineOnline\SmsBroadcast\Exception\InvalidSenderException;
+use DevineOnline\SmsBroadcast\Exception\SendException;
+use DevineOnline\SmsBroadcast\Exception\SmsBroadcastException;
 use BlastCloud\Guzzler\UsesGuzzler;
 use GuzzleHttp\Psr7\Response;
 use PHPUnit\Framework\TestCase;

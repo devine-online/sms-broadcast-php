@@ -1,12 +1,12 @@
 <?php
 
-namespace Atymic\SmsBroadcast\Api;
+namespace DevineOnline\SmsBroadcast\Api;
 
-use Atymic\SmsBroadcast\Exception\InvalidMessageException;
-use Atymic\SmsBroadcast\Exception\InvalidNumberException;
-use Atymic\SmsBroadcast\Exception\InvalidSenderException;
-use Atymic\SmsBroadcast\Exception\SendException;
-use Atymic\SmsBroadcast\Exception\SmsBroadcastException;
+use DevineOnline\SmsBroadcast\Exception\InvalidMessageException;
+use DevineOnline\SmsBroadcast\Exception\InvalidNumberException;
+use DevineOnline\SmsBroadcast\Exception\InvalidSenderException;
+use DevineOnline\SmsBroadcast\Exception\SendException;
+use DevineOnline\SmsBroadcast\Exception\SmsBroadcastException;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\RequestOptions;
 

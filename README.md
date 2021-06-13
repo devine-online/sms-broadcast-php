@@ -1,5 +1,7 @@
+# Forked from outdated repo by Atymic
+
 # SmsBroadcast PHP API Client
-[![Build Status](https://travis-ci.org/atymic/sms-broadcast-php.svg?branch=master)](https://travis-ci.org/atymic/sms-broadcast-php) [![StyleCI](https://github.styleci.io/repos/190493163/shield?branch=master)](https://github.styleci.io/repos/190493163) [![Latest Stable Version](https://poser.pugx.org/atymic/sms-broadcast/v/stable)](https://packagist.org/packages/atymic/sms-broadcast) [![License](https://poser.pugx.org/atymic/sms-broadcast/license)](https://packagist.org/packages/atymic/sms-broadcast)
+[![Build Status](https://travis-ci.org/DevineOnline/sms-broadcast-php.svg?branch=master)](https://travis-ci.org/DevineOnline/sms-broadcast-php) [![StyleCI](https://github.styleci.io/repos/190493163/shield?branch=master)](https://github.styleci.io/repos/190493163) [![Latest Stable Version](https://poser.pugx.org/DevineOnline/sms-broadcast/v/stable)](https://packagist.org/packages/DevineOnline/sms-broadcast) [![License](https://poser.pugx.org/DevineOnline/sms-broadcast/license)](https://packagist.org/packages/DevineOnline/sms-broadcast)
 
 This is a simple API client for [SMS Broadcast](https://www.smsbroadcast.com.au/).
 
@@ -8,7 +10,7 @@ You can view their API documentation [here](https://www.smsbroadcast.com.au/Adva
 ## Install
 
 ```bash
-composer require atymic/sms-broadcast
+composer require DevineOnline/sms-broadcast
 ```
 
 
@@ -17,7 +19,7 @@ composer require atymic/sms-broadcast
 ### Creating the client
 
 ```php
-$client = \Atymic\SmsBroadcast\Factory\ClientFactory::create(
+$client = \DevineOnline\SmsBroadcast\Factory\ClientFactory::create(
     'username',
     'password',
     '0412345678' // Default sender, optional
@@ -28,7 +30,7 @@ $client = \Atymic\SmsBroadcast\Factory\ClientFactory::create(
 ```php
 try {
     $response = $client->send('0487654321', 'This is an sms message');
-} catch (\Atymic\SmsBroadcast\Exception\SmsBroadcastException $e) {
+} catch (\DevineOnline\SmsBroadcast\Exception\SmsBroadcastException $e) {
     echo 'Failed to send with error: ' . $e->getMessage();
 }
 

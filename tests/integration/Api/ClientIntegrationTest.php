@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Atymic\SmsBroadcast\Tests\Integration\Api;
+namespace DevineOnline\SmsBroadcast\Tests\Integration\Api;
 
-use Atymic\SmsBroadcast\Api\Client;
-use Atymic\SmsBroadcast\Api\SendResponse;
-use Atymic\SmsBroadcast\Factory\ClientFactory;
+use DevineOnline\SmsBroadcast\Api\Client;
+use DevineOnline\SmsBroadcast\Api\SendResponse;
+use DevineOnline\SmsBroadcast\Factory\ClientFactory;
 use PHPUnit\Framework\TestCase;
 
 class ClientIntegrationTest extends TestCase

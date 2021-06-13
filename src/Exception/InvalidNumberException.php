@@ -1,6 +1,6 @@
 <?php
 
-namespace Atymic\SmsBroadcast\Exception;
+namespace DevineOnline\SmsBroadcast\Exception;
 
 class InvalidNumberException extends SmsBroadcastException
 {
